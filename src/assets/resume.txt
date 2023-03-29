@@ -1,0 +1,28 @@
+John Doe
+123 Main Street, Anytown, USA 12345
+(123) 456-7890 | john.doe@email.com
+
+Summary
+Self-taught software developer with a passion for problem-solving and a strong foundation in programming concepts and best practices. Seeking an entry-level position where I can contribute my skills and continue to learn and grow.
+
+Technical Skills
+- Proficient in Java, Python, and C++
+- Familiar with HTML, CSS, and JavaScript
+- Strong understanding of algorithms and data structures
+- Experience with Git for version control and collaboration
+- Proficient in Windows, macOS, and Linux operating systems
+
+Projects
+- Built a web scraper using Python and BeautifulSoup to extract data from online sources and save it to a CSV file.
+- Implemented a simple search engine using Java, which utilized an inverted index to index and search a large corpus of documents.
+- Created a basic game using C++ and SDL, which included graphics, sound, and user input.
+- Contributed to open-source projects on GitHub, including fixing bugs and adding features.
+
+Education
+- Bachelor's degree in Computer Science, XYZ University, Expected Graduation: 2022
+
+Experience
+- Intern, ABC Corporation (Summer 2020)
+  - Assisted with the development of a mobile application using Java and Android Studio.
+  - Learned and applied software development best practices, such as unit testing and code reviews.
+  - Collaborated with a team of developers to plan and implement features.

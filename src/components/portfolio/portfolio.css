@@ -1,0 +1,134 @@
+#portfolio{
+    height: 270vh;
+}
+
+.portfolio_container {
+    display: grid;
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.portfolio_item-image {
+    width: 43vw;
+}
+
+.portfolio_item-image img {
+    border-radius: 1.5vw;
+}
+
+.portfolio_item-image:hover{
+    filter: grayscale(0%);
+}
+
+#text {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.portfolio_item{
+    display: grid;
+    grid-template-areas: '1 1';
+    gap: 1vw;
+    background: var(--color-bg-variant);
+    padding: 1.3vw;
+    border-radius: 2vw;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    filter: grayscale(60%);
+    min-width: 1000px;
+    align-items: center;
+} 
+
+.portfolio_item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+    filter: grayscale(0%);
+}
+
+.portfolio_item h3{
+    margin: 1.2vw 0 2vw;
+}
+
+.portfolio_item-cta {
+    display: flex;
+    gap: 2vw;
+    margin-top: 1.5vw;
+    justify-content: center;
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vw;
+    color: var(--color-light);
+}
+
+h4 {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+
+
+
+/* ============= Media Queries ============== */
+
+
+@media screen and (max-width:960px){
+
+    #portfolio{
+        height: 350vh;
+    }
+
+    .portfolio_item{
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        min-width: auto;
+        transition: none;
+        filter: grayscale(0%);
+    }
+
+    .portfolio_item:hover{
+        background: var(--color-bg-variant);
+    }
+
+    .portfolio_container{
+        gap: 10vw;
+    }
+    .portfolio_item-image {
+        grid-column-start: 0;
+        grid-column-end: 3;
+        width: 70vw;
+        
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+    
+    h4 {
+        font-size: 6.5vw;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+
+    #portfolio{
+        height: 290vh;
+    }
+
+}

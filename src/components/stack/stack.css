@@ -1,0 +1,88 @@
+#about_stack {
+    height: 60vh;
+}
+
+
+
+
+div > h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.stack_icon img {
+    height: 5rem;
+    width: 5rem;
+    justify-content: center;
+    }
+
+
+.stack_cards {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: '1 1 1 1';
+    gap: 1.5rem;
+
+}
+
+
+.stack_icon {
+    display: grid;
+    place-items: center;
+}
+
+
+
+.stack_icon {
+    width: 12rem;
+    height: 12rem;
+
+    transition: var(--transition); 
+
+}
+
+.stack_icon:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+
+/* ============= Media Queries ( Tablet ) ============== */
+
+@media screen and (max-width:960px){
+
+    #about_stack{
+        height: 80vw;
+        min-height: 800px;
+    }
+    
+    #tech_stack{
+        margin-top: 5rem;
+    }
+
+    .stack_cards{
+        gap: 0rem;
+        grid-template-areas: '1 1';
+    }
+
+    .stack_icon img {
+        height: 15vw;
+        width: 15vw;
+        justify-content: center;
+        }
+
+}
+
+
+/* ============= Media Queries ( Mobile ) ============== */
+@media screen and (max-width:600px){
+
+    #about_stack{
+        height: 120vh;
+        min-height: 800px;
+    }
+
+}
+

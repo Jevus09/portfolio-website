@@ -1,0 +1,129 @@
+.container_contact{
+    display: grid;
+    margin: 12vw;
+}
+
+#contact {
+    height: 100vh;
+}
+
+#contact h5{
+    font-size: 1vw;
+}
+
+#contact h2{
+    font-size: 2vw;
+    
+}
+.contact_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vw;
+    gap: 2vw;
+    font-size: max(.9vw, 19px);
+
+}
+
+.container_contact p{
+    margin: 0 7vw;
+    text-align: center;
+    font-size: max(.9vw, 19px);
+}
+
+
+.container_contact p:hover{
+    color: white;
+}
+
+.container_contact img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22vw;
+    text-align: center;
+}
+
+.container_contact img {
+    margin: -7vw auto 2.5vw;
+}
+
+/* ============= Media Queries ============== */
+
+
+@media screen and (max-width:960px){
+
+    .contact{
+        height: 600vh;
+        min-height: 1550px ;
+
+    }
+
+    #contact h5{
+        font-size: 2.5vw;
+    }
+    
+    #contact h2{
+        font-size: 4vw;
+        
+    }
+
+    .container_contact img{
+        width: 50vw;
+        min-width: 200px;
+        margin-top: 3vw;
+    }
+
+    .container_contact p{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 6vw 3vw 1vw;
+        font-size: 2.5vw;
+    }
+
+    .contact_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 9vw;
+        font-size: 2.5vw;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+
+    #contact{
+        height: 110vh;
+
+
+    }
+
+    .container_contact p{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 5% auto;
+        font-size: 4vw;
+    }
+
+    .contact_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 15vw;
+        font-size: 3.5vw;
+    }
+
+    .container_contact img{
+        width: 40vw;
+        margin-top: 1vw;
+    }
+
+
+}
