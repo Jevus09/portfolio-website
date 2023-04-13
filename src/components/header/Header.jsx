@@ -32,7 +32,7 @@ const Header = () => {
             typewriter.typeString(`Hello, World!`)
               .callFunction(() => {
               })
-              .pauseFor(2500)
+              .pauseFor(1500)
               .callFunction(() => {
               })
               .start();
@@ -47,7 +47,7 @@ const Header = () => {
             typewriter1.typeString(`My name is Jesus Calderon`)
               .callFunction(() => {
               })
-              .pauseFor(2500)
+              .pauseFor(1500)
               .callFunction(() => {
               })
               .start();
@@ -62,7 +62,7 @@ const Header = () => {
             typewriter2.typeString('I build things for the web.')
               .callFunction(() => {
               })
-              .pauseFor(2500)
+              .pauseFor(1500)
               .deleteChars(12)
               .pauseFor(500)
               .typeString('with ReactJS')

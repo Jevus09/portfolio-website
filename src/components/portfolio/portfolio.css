@@ -1,19 +1,30 @@
 #portfolio{
-    height: 270vh;
+    height: 110%;
 }
 
 .portfolio_container {
     display: grid;
     gap: 2.5vw;
     justify-content: center;
+    align-items: center;
+
 }
 
 .portfolio_item-image {
-    width: 43vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 .portfolio_item-image img {
-    border-radius: 1.5vw;
+    border-radius: 40px;
+    width: 55vw;
+    height: 60vh;
+    max-width: 900px;
+    max-height: 580px;
+
 }
 
 .portfolio_item-image:hover{
@@ -21,22 +32,30 @@
 }
 
 #text {
-    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .portfolio_item{
     display: grid;
+    height: 60vh;
+    width: 90vw;
+    min-height: 625px;
+    min-width: 900px;
     grid-template-areas: '1 1';
     gap: 1vw;
+    justify-content: center;
+    align-items: center;
     background: var(--color-bg-variant);
-    padding: 1.3vw;
-    border-radius: 2vw;
+    padding: 2vw;
+    border-radius: 40px;
     border: 1px solid transparent;
     transition: var(--transition);
     filter: grayscale(60%);
-    min-width: 1000px;
-    align-items: center;
+    contain: strict;
+
 } 
 
 .portfolio_item:hover{
@@ -46,13 +65,12 @@
 }
 
 .portfolio_item h3{
-    margin: 1.2vw 0 2vw;
+    font-size: 2vh;
 }
 
 .portfolio_item-cta {
     display: flex;
     gap: 2vw;
-    margin-top: 1.5vw;
     justify-content: center;
 }
 
@@ -65,12 +83,11 @@
 p {
     display: flex;
     justify-content: flex-end;
-    margin-top: 4vw;
     color: white;
+    padding: 5vw;
 }
 
 h4 {
-    margin-top: 1vw;
     font-size: 2vw;
 }
 
@@ -82,17 +99,18 @@ h4 {
 
 @media screen and (max-width:960px){
 
-    #portfolio{
-        height: 350vh;
-    }
+
 
     .portfolio_item{
         display: flex;
         flex-direction: column;
         width: 85vw;
-        min-width: auto;
+        min-width: 90%;
+        height: auto;
         transition: none;
         filter: grayscale(0%);
+        contain: strict;
+
     }
 
     .portfolio_item:hover{
@@ -105,8 +123,8 @@ h4 {
     .portfolio_item-image {
         grid-column-start: 0;
         grid-column-end: 3;
-        width: 70vw;
-        
+
+               
     }
 
     h3 {
@@ -122,13 +140,14 @@ h4 {
         font-size: 6.5vw;
     }
 
-}
-
-
-@media screen and (max-width:600px){
-
-    #portfolio{
-        height: 290vh;
+    .portfolio_item-image img {
+        max-height: 5px !important;
+    
     }
 
 }
+
+
+
+
+

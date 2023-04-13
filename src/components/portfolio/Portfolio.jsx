@@ -4,6 +4,7 @@ import IMG1 from '../../assets/exmple.PNG'
 import Crypto from '../../assets/Crypto.PNG'
 import { FaReact } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
+import { TbBrandFirebase } from 'react-icons/tb'
 
 
 const data = [
@@ -13,9 +14,10 @@ const data = [
     title: 'Crypto Central',
     language: <FaReact />,
     language2: <FaCss3Alt />,
-    github: 'https://github.com/Jevus09/crypto-site',
-    demo: 'https://github.com/Jevus09',
-    description: 'A crypto website built with React and styled with CSS, utilizing the Coingecko API to provide real-time cryptocurrency data. The Material UI library is used to create a modern and responsive user interface. The website allows users to view current prices, market capitalization, and other key metrics for popular cryptocurrencies, as well as historical data and information about the coins. The site also includes features such as a customizable watchlist and portfolio tracker, and provides educational resources for users new to cryptocurrency.'
+    language3: <TbBrandFirebase />,
+    github: 'https://github.com/Jevus09/crypto-central',
+    demo: 'https://crypto-central-01.netlify.app/',
+    description: 'This is a crypto website that utilizes the Coingecko API to provide users with real-time information about cryptocurrency prices and market trends. Built with Firebase as the back-end infrastructure, ReactJS for the front-end framework, and Material UI for a sleek and intuitive user interface'
   },
   {
     id: 2,
@@ -60,7 +62,7 @@ const Portfolio = () => {
 
       <div className='container portfolio_container'>
         {
-          data.map(({ id, image, title, github, demo, language, language2, description }) => {
+          data.map(({ id, image, title, github, demo, language, language2, language3, description }) => {
             return (
               <article key={id} className='portfolio_item'>
                 <div className='portfolio_item-image'>
@@ -73,10 +75,11 @@ const Portfolio = () => {
                     <div className='stack'>
                       <h4>{language}</h4>
                       <h4>{language2}</h4>
+                      <h4>{language3}</h4>
                     </div>
                     <div className='portfolio_item-cta'>
-                      <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
                       <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                      <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
                     </div>
                   </div>
                 </div>
