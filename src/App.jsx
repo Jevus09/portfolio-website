@@ -5,7 +5,7 @@ import About from './components/about/About'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
 import Footer from './components/footer/Footer'
-import Stack from './components/stack/stack'
+
 
 
 
@@ -15,7 +15,6 @@ const App = () => {
       <Header/>
       <Nav/>
       <About/>
-      <Stack/>
       <Portfolio/>
       <Contact/>
       <Footer/>    

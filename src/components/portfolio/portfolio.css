@@ -21,9 +21,10 @@
 .portfolio_item-image img {
     border-radius: 40px;
     width: 55vw;
-    height: 60vh;
+    height: 55vw;
     max-width: 900px;
-    max-height: 580px;
+    max-height: 550px;
+    overflow: scroll;
 
 }
 
@@ -88,7 +89,10 @@ p {
 }
 
 h4 {
+    display: flex;
     font-size: 2vw;
+    gap: 2vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -100,52 +104,108 @@ h4 {
 @media screen and (max-width:960px){
 
 
-
     .portfolio_item{
         display: flex;
+        padding: 0;
         flex-direction: column;
         width: 85vw;
         min-width: 90%;
-        height: auto;
+        height: 100%;
         transition: none;
         filter: grayscale(0%);
         contain: strict;
 
     }
 
-    .portfolio_item:hover{
-        background: var(--color-bg-variant);
+    .portfolio_container{
+        gap: 10vh;
     }
 
-    .portfolio_container{
-        gap: 10vw;
-    }
     .portfolio_item-image {
         grid-column-start: 0;
         grid-column-end: 3;
+        
 
                
     }
 
     h3 {
         text-align: center;
-        font-size: 3.5vw;
+        font-size: 3vw;
+        margin-top: 0;
     }
 
     p {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
+        max-width: 900px;
+        padding-bottom: 1vh;
     }
     
     h4 {
-        font-size: 6.5vw;
+        font-size: 4vw;
+        margin-bottom: 1vh;
+        margin-top: 0;
     }
 
     .portfolio_item-image img {
-        max-height: 5px !important;
-    
+        height: 250px;
+        border-radius: 20px;
+        min-width: 350px;
+
     }
 
 }
+
+
+
+
+@media screen and (max-width:600px){
+
+
+    .portfolio_item{
+        display: flex;
+        flex-direction: column;
+        filter: grayscale(0%);
+        justify-content:flex-start;
+        transition: none;
+        width: 90vw;
+
+    }
+
+    .portfolio_container{
+        gap: 10vh;
+    }
+
+
+    h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: max(5vh, 4px);
+    }
+
+    p {
+        font-size: 2.7vw;
+        max-width: 900px;
+        margin-bottom: 2vh;
+
+    }
+    
+    h4 {
+        font-size: 6vw;
+        margin-bottom: 5vh;
+        margin-top: min(1vh, -5px);
+    }
+
+    .portfolio_item-image img {
+        height: 250px;
+        border-radius: 35px;
+        min-width: 330px;
+        margin-top: 1vh;
+
+    }
+
+}
+
 
 
 

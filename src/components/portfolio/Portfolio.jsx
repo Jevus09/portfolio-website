@@ -12,9 +12,7 @@ const data = [
     id: 1,
     image: Crypto,
     title: 'Crypto Central',
-    language: <FaReact />,
-    language2: <FaCss3Alt />,
-    language3: <TbBrandFirebase />,
+    language: <><FaReact /> <FaCss3Alt /> <TbBrandFirebase /></>,
     github: 'https://github.com/Jevus09/crypto-central',
     demo: 'https://crypto-central-01.netlify.app/',
     description: 'This is a crypto website that utilizes the Coingecko API to provide users with real-time information about cryptocurrency prices and market trends. Built with Firebase as the back-end infrastructure, ReactJS for the front-end framework, and Material UI for a sleek and intuitive user interface'
@@ -23,18 +21,16 @@ const data = [
     id: 2,
     image: IMG1,
     title: 'Example title 2',
-    language: <FaReact />,
-    language2: <FaCss3Alt />,
+    language: <><FaReact /> <FaCss3Alt /></>,
     github: 'https://github.com/Jevus09',
     demo: 'https://github.com/Jevus09',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    description: 'This is a crypto website that utilizes the Coingecko API to provide users with real-time information about cryptocurrency prices and market trends. Built with Firebase as the back-end infrastructure, ReactJS for the front-end framework, and Material UI for a sleek and intuitive user interface'
   },
   {
     id: 3,
     image: IMG1,
     title: 'Example title 3',
-    language: <FaReact />,
-    language2: <FaCss3Alt />,
+    language: <><FaReact /> <FaCss3Alt /></>,
     github: 'https://github.com/Jevus09',
     demo: 'https://github.com/Jevus09',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
@@ -43,8 +39,7 @@ const data = [
     id: 4,
     image: IMG1,
     title: 'Example title 4',
-    language: <FaReact />,
-    language2: <FaCss3Alt />,
+    language: <><FaReact /> <FaCss3Alt /></>,
     github: 'https://github.com/Jevus09',
     demo: 'https://github.com/Jevus09',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
@@ -68,14 +63,12 @@ const Portfolio = () => {
                 <div className='portfolio_item-image'>
                   <img src={image} alt={title} />
                 </div>
-                <div className='secod'>
+                <div className='second'>
                   <div id='text'>
                     <h3>{title}</h3>
                     <p>{description}</p>
                     <div className='stack'>
                       <h4>{language}</h4>
-                      <h4>{language2}</h4>
-                      <h4>{language3}</h4>
                     </div>
                     <div className='portfolio_item-cta'>
                       <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>

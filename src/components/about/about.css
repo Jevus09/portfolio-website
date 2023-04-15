@@ -1,10 +1,11 @@
 #about {
-    height: 60vh;
+    height: 90vh;
+    min-height: 800px;
 }
 
 .about_container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns:35% 54%;
     gap: 15%;
 }
 
@@ -34,18 +35,18 @@
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-white);
+    text-align: center;
+
 }
-
-
 /* ============= Media Queries ( Tablet ) ============== */
 
 @media screen and (max-width:1024px){
 
     #about {        
-        height: 100vh;
-        min-height: 800px;
+        height: 90vh;
+        min-height: 980px ;
+
     }
 
     .about_container {
@@ -72,19 +73,15 @@
 
 }
 
-@media screen and (max-width:1280px){
-    #about {        
-        height: 110vh;
-    }
 
-}
 
 
 /* ============= Media Queries ( Mobile ) ============== */
 @media screen and (max-width:600px){
 
     #about {
-        height: 170vh;
+        height: 125vh;
+        max-height: 1150px;
     }
     .about_me {
         width: 65%;
@@ -96,7 +93,7 @@
     }
 
     .about_content p {
-        margin: 2vw -5vw;
+        margin: -1vh -5vw 5vh -5vw;
         font-size: 3.4vw;
     }
 
@@ -105,11 +102,5 @@
 
 
 
-@media screen and (max-width:600px){
-    #about {
-        height: 100vh;
-    }
-
-}
 
 

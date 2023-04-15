@@ -23,7 +23,7 @@ header {
     font-size: 3.5vh;
     font-weight: 900;
     background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #ec00f8 0%, #2BD2FF 52%, #2BFF88 90%);   
+    background-image: linear-gradient(45deg, #ec00f8 25%, #2BD2FF 50%, #2BFF88 90%);   
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -31,9 +31,6 @@ header {
     -moz-text-fill-color: transparent;
 
 }
-
-
-
 
 
 /* ============= CTA ==================*/
@@ -64,6 +61,11 @@ header {
 .header_socials a {
     color: white;
     font-size: 2.2vh;
+}
+
+
+.header_socials a:hover {
+    color: rgb(73, 218, 218);
 }
 
 .header_socials::after{
@@ -106,15 +108,17 @@ font-size: 1.2rem;
     }
 
     .header_socials, .header_email {
-        margin-bottom: 3vh;
+        margin-bottom: 6vh;
+        
     }
 
     .cta {
         margin-top: 1rem;
+        margin-bottom: 10vh;
     }
 
     .Typewriter__wrapper {
-        margin-top: 1.5vh;
+        margin-top: 0;
         font-size: 3.8vh;
     
     }
@@ -130,8 +134,8 @@ font-size: 1.2rem;
 
 
     .cta {
-        margin-top: 1rem;
-        margin-bottom: 10vh;
+        margin-top: .5rem;
+        margin-bottom: 5vh;
         margin-right: auto;
         display: flex;
     }
@@ -139,7 +143,7 @@ font-size: 1.2rem;
 
     .Typewriter__wrapper {
         display: flex;
-        margin-top: 1vh;
+        margin-top: 0;
         font-size: 3.8vh;
     
     }
@@ -148,7 +152,7 @@ font-size: 1.2rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.7vh;
+        font-size: 1.5vh; 
 
     }
 

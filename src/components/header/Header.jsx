@@ -4,6 +4,7 @@ import CTA from './cta'
 import Typewriter from 'typewriter-effect';
 import './HeaderSocials'
 import HeaderSocials from './HeaderSocials'
+import Stack from '../stack/stack'
 
 const Header = () => {
 
@@ -27,6 +28,7 @@ const Header = () => {
     <header>
       <div className=" container header_container">
         <CTA />
+        <div className="type">
         <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString(`Hello, World!`)
@@ -100,7 +102,9 @@ const Header = () => {
             
           }
           />)}
+        </div>
         <HeaderSocials />
+        <Stack className='stack'/>
         <div className='header_email'>
           <a href="mailto:jevus09@gmail.com" rel="noopener noreferrer" target="_blank">Jevus09@gmail.com</a>
         </div>
