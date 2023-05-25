@@ -48,8 +48,8 @@ h3 + p {
 
 .portfolio_item-image img {
     width: 30vw;
-    max-width: 900px;
-    max-height: 550px;
+    height: 40vh;
+    min-width: 500px;
     object-fit: cover;
     object-position: top center;
     transition: all 6s ease-in-out ;

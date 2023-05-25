@@ -4,18 +4,28 @@
     
 }
 
+#contact h2 {
+    font-size: 5vh;
+}
+
+#contact h5 {
+    font-size: 1.5vh;
+
+}
+
 .contact_buttons{
     display: flex;
     justify-content: center;
     gap: 2vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
     font-size: max(.9vw, 19px);
 
 }
 
 .container_contact p{
     text-align: center;    
-    font-size: max(.9vw, 19px);
+    font-size: max(.8vw, 19px);
+    margin-top: 5vh;
     padding-left: 30vw;
     padding-right: 30vw;
 }
