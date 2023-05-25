@@ -34,9 +34,6 @@ const Header = () => {
             typewriter.typeString(`Hello, World!`)
               .callFunction(() => {
               })
-              .pauseFor(1500)
-              .callFunction(() => {
-              })
               .start();
           }} 
           options={
@@ -49,7 +46,7 @@ const Header = () => {
             typewriter1.typeString(`My name is Jesus Calderon`)
               .callFunction(() => {
               })
-              .pauseFor(1500)
+              .pauseFor(1000)
               .callFunction(() => {
               })
               .start();

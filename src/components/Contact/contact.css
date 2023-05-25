@@ -1,19 +1,14 @@
 #contact {
     height: 100%;
-}
-
-#contact h5{
-    font-size: .8vw;
-}
-
-#contact h2{
-    font-size: 1.5vw;
+    margin-top: 25vh;
     
 }
+
 .contact_buttons{
     display: flex;
     justify-content: center;
     gap: 2vw;
+    margin-top: 5vh;
     font-size: max(.9vw, 19px);
 
 }
@@ -24,12 +19,6 @@
     padding-left: 30vw;
     padding-right: 30vw;
 }
-
-
-.container_contact p:hover{
-    color: white;
-}
-
 
 /* ============= Media Queries ============== */
 
