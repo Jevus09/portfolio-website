@@ -1,9 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/exmple.PNG'
-import Crypto from '../../assets/Crypto.PNG'
-import ELE from '../../assets/electronix.PNG'
-import GOAL from '../../assets/goaltrack.PNG'
+import Crypto from '../../assets/crypto.webp'
+import ELE from '../../assets/electronix.webp'
+import GOAL from '../../assets/goaltrackr.webp'
 import { FaReact } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { TbBrandFirebase } from 'react-icons/tb'
@@ -74,11 +74,15 @@ const data = [
 
 const Portfolio  = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' style={{height: '100%'}}>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='container portfolio_container'>
+      <div className='container portfolio_container' style={{    
+        display: 'grid',
+        gap: '10vw',
+        justifyContent: 'center',
+        alignItems: 'center',}}>
         {data.map((item, index,) => (
              (
               <article key={item.id} className={`${index % 2 ? 'left' : 'right'}`}>

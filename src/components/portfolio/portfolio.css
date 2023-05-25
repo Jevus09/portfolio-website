@@ -1,16 +1,4 @@
-#portfolio{
-    height: 100%;
 
-}
-
-
-.portfolio_container {
-    display: grid;
-    gap: 10vw;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .left .item {
     display: flex;
@@ -62,10 +50,9 @@ h3 + p {
     width: 30vw;
     max-width: 900px;
     max-height: 550px;
-    overflow: scroll;
-    z-index: 3; 
-    filter:opacity(70%);
-    mix-blend-mode: screen;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 6s ease-in-out ;
 
 }
 
@@ -91,7 +78,7 @@ h3 + p {
 
 
 .portfolio_item-image img:hover{
-    filter: opacity(100%);
+    object-position: bottom center;
 }
 
 h4 {
@@ -167,108 +154,13 @@ h4 {
         font-size: 25px;
     }
     
-/* 
-    .portfolio_item{
-        display: flex;
-        padding: 0;
-        flex-direction: column;
-        width: 85vw;
-        min-width: 90%;
-        height: 100%;
-        transition: none;
-        filter: grayscale(0%);
-        contain: strict;
 
-    }
-
-    .portfolio_container{
-        gap: 10vh;
-    }
-
-    .portfolio_item-image {
-        grid-column-start: 0;
-        grid-column-end: 3;
-        
-
-               
-    }
-
-    h3 {
-        text-align: center;
-        font-size: 3vw;
-        margin-top: 0;
-    }
-
-    p {
-        font-size: 1.5vw;
-        max-width: 900px;
-        padding-bottom: 1vh;
-    }
-    
-    h4 {
-        font-size: 4vw;
-        margin-bottom: 1vh;
-        margin-top: 0;
-    }
-
-    .portfolio_item-image img {
-        height: 250px;
-        border-radius: 20px;
-        min-width: 350px;
-
-    } */
 
 }
 
 
 
 
-@media screen and (max-width:600px){
-
-
-    /* .portfolio_item{
-        display: flex;
-        flex-direction: column;
-        filter: grayscale(0%);
-        justify-content:flex-start;
-        transition: none;
-        width: 90vw;
-
-    }
-
-    .portfolio_container{
-        gap: 10vh;
-    }
-
-
-    h3 {
-        text-align: center;
-        font-size: 3vw;
-        margin-top: max(5vh, 4px);
-    }
-
-    p {
-        font-size: 2.7vw;
-        max-width: 900px;
-        margin-bottom: 2vh;
-
-    }
-    
-    h4 {
-        font-size: 6vw;
-        margin-bottom: 5vh;
-        margin-top: min(1vh, -5px);
-    }
-
-    .portfolio_item-image img {
-        height: 250px;
-        border-radius: 35px;
-        min-width: 330px;
-        margin-top: 1vh;
-
-    } */
-
-}
 
 
 
