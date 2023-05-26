@@ -1,7 +1,6 @@
 import React from 'react'
 import './stack.css'
 import rc from '../../assets/react.png'
-import py from '../../assets/python.png'
 import js from '../../assets/js.png'
 import css from '../../assets/css.png'
 import tw from '../../assets/tailwind.png'
@@ -15,21 +14,22 @@ const data = [
     },
     {
       id: 2,
-      image: py,
+      image: js,
     },
     {
-      id: 4,
-      image: js,
+      id: 3,
+      image: tw,
     },
     
       {
-      id: 6,
+      id: 4,
       image: css,
       },
       {
-      id: 8,
+      id: 5,
       image: html,
-      }    
+      }, 
+    
   ]
 
   function stack() {

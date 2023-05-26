@@ -1,6 +1,5 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/exmple.PNG'
 import Crypto from '../../assets/crypto.webp'
 import ELE from '../../assets/electronix.webp'
 import GOAL from '../../assets/goaltrackr.webp'
@@ -56,20 +55,7 @@ const data = [
     description:
       'The football website portfolio project showcases a dynamic and engaging platform built with React and Tailwind CSS. Utilizing the API-FOOTBALL, it seamlessly displays live games, league fixtures, and allows users to filter matches from the top 5 leagues. With its intuitive design and real-time updates, football enthusiasts can stay up-to-date with their favorite teams and leagues.',
   },
-  // {
-  //   id: 4,
-  //   image: IMG1,
-  //   title: 'Example title 4',
-  //   language: (
-  //     <>
-  //       <FaReact /> <FaCss3Alt />
-  //     </>
-  //   ),
-  //   github: 'https://github.com/Jevus09',
-  //   demo: 'https://github.com/Jevus09',
-  //   description:
-  //     'This is a crypto website that utilizes the Coingecko API to provide users with real-time information about cryptocurrency prices and market trends. Built with Firebase as the back-end infrastructure, ReactJS for the front-end framework, and Material UI for a sleek and intuitive user interface',
-  // },
+
 ]
 
 const Portfolio  = () => {

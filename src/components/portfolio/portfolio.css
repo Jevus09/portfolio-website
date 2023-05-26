@@ -40,7 +40,7 @@ h3 + p {
 }
 
 .left .text {
-    text-align: start;
+    text-align: flex-start;
     transform: translate(80px, 20px);
 
 }
@@ -60,14 +60,14 @@ h3 + p {
 .portfolio_item-cta {
     display: flex;
     gap: 2vw;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: small;
 }
 
 .left .portfolio_item-cta {
     display: flex;
     gap: 2vw;
-    justify-content: start;
+    justify-content: flex-start;
     font-size: small;
 }
 
@@ -83,7 +83,7 @@ h3 + p {
 
 h4 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 1.5vw;
     gap: 2vw;
     color: aqua;
