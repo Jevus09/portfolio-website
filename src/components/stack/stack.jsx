@@ -29,10 +29,7 @@ const data = [
       id: 5,
       image: html,
       }, 
-      // {
-      //   id: 5,
-      //   image: html,
-      //   }, 
+
     
   ]
 
