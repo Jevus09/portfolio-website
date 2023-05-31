@@ -51,7 +51,7 @@ const data = [
       </>
     ),
     github: 'https://github.com/Jevus09/goaltrackr',
-    demo: 'https://646e667c57b9dc14b3a777aa--goaltrackr.netlify.app/',
+    demo: 'https://goaltrackr.netlify.app/',
     description:
       'The football website portfolio project showcases a dynamic and engaging platform built with React and Tailwind CSS. Utilizing the API-FOOTBALL, it seamlessly displays live games, league fixtures, and allows users to filter matches from the top 5 leagues. With its intuitive design and real-time updates, football enthusiasts can stay up-to-date with their favorite teams and leagues.',
   },
