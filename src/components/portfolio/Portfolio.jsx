@@ -74,7 +74,7 @@ const Portfolio  = () => {
               <article key={item.id} className={`${index % 2 ? 'left' : 'right'}`}>
                 <div className='item'>
                 <div className='portfolio_item-image'>
-                  <img src={item.image} alt={item.title} />
+                  <a href={item.demo} target='_blank' rel='noreferrer' ><img src={item.image} alt={item.title} /></a>
                 </div>
                 <div className='second'>
                   <div className='text'>

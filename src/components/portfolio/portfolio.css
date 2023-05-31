@@ -76,6 +76,11 @@ h3 + p {
     font-size: 2vh;
 }
 
+.left h3{
+    display: flex;
+    justify-content: flex-start;
+}
+
 
 .portfolio_item-image img:hover{
     object-position: bottom center;
