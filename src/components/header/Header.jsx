@@ -103,7 +103,7 @@ const Header = () => {
         <HeaderSocials />
         <Stack className='stack'/>
         <div className='header_email'>
-          <a href="mailto:jevus09@gmail.com" rel="noopener noreferrer" target="_blank">Jevus09@gmail.com</a>
+          <a href="mailto:me@calderonjesus.com" rel="noopener noreferrer" target="_blank">me@calderonjesus.com</a>
         </div>
       </div>
     </header>
