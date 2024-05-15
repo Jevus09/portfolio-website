@@ -3,6 +3,7 @@ import './portfolio.css'
 import Crypto from '../../assets/crypto.webp'
 import ELE from '../../assets/electronix.webp'
 import GOAL from '../../assets/goaltrackr.webp'
+import MANOR from '../../assets/leemanor.JPG'
 import { FaReact } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { TbBrandFirebase } from 'react-icons/tb'
@@ -10,8 +11,25 @@ import { DiMongodb } from 'react-icons/di'
 import { SiExpress } from 'react-icons/si'
 import { GrNode } from 'react-icons/gr'
 import {SiTailwindcss} from 'react-icons/si'
+import { FaBootstrap } from "react-icons/fa";
+
 
 const data = [
+  {
+    id: 1,
+    image: MANOR,
+    title: 'LeeManor - Freelance',
+    language: (
+      <>
+        <FaReact /> <FaBootstrap />
+        <SiTailwindcss />
+      </>
+    ),
+    github: 'https://github.com/Jevus09/manor-website',
+    demo: 'https://leemanor.com/',
+    description:
+      "Lee Manor, built entirely from scratch with React, Bootstrap, and Tailwind CSS. This project provides a seamless user experience, highlighting the essential services and facilities of the nursing home. By utilizing modern web development technologies, I've ensured that the website is responsive across all devices, effectively showcasing the warmth and professionalism of Lee Manor Nursing Home. This project demonstrates my proficiency in crafting visually appealing and user-friendly interfaces tailored to specific business needs.",
+  },
   {
     id: 1,
     image: ELE,

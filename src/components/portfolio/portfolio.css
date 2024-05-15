@@ -24,7 +24,7 @@ h3 + p {
     padding: 1rem;
     max-width: 650px;
     font-size: small;
-    text-align: right;
+    text-align: left;
 }
 
 .text {

@@ -20,7 +20,7 @@ const About = () => {
           I am a self-taught software developer, I have taken the initiative to learn the ins and outs of programming. I have spent countless hours learning new programming languages and technologies, building projects, and solving coding challenges. My dedication and drive to succeed in the tech industry demonstrate a strong work ethic and a passion for software development.<br/>
           I have honed my skills and gained practical experience through my self-directed learning approach. My ability to think critically and creatively has allowed me to tackle complex coding problems with confidence, and my passion for software development drives me to continuously improve my skills.
             </p>
-            <a href="mailto:jevus09@gmail.com" rel="noopener noreferrer" target="_blank" className='btn btn-primary'>Lets Talk</a>
+            <a href="mailto:jesus.calderon@jlcwebdev.com" rel="noopener noreferrer" target="_blank" className='btn btn-primary'>Lets Talk</a>
         </div>
       </div>
       <div className="stack">
