@@ -2,7 +2,7 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
-    background-image: linear-gradient(rgba(18, 27, 65, 0.349) 70%, #1f1f38 95%), url('../../assets/background.webp');
+    background-image: linear-gradient(rgba(18, 27, 65, 0.349) 70%, #08152c 95%), url('../../assets/background.webp');
     background-size: cover;
     background-position: center center;
 

@@ -53,6 +53,8 @@ h3 + p {
     object-fit: cover;
     object-position: top center;
     transition: all 6s ease-in-out ;
+    border-radius: 10px;
+
 
 }
 
@@ -98,6 +100,9 @@ h4 {
     justify-content: start;
 }
 
+p {
+    border-radius: 10px;
+}
 
 /* ============= Media Queries ============== */
 
