@@ -25,7 +25,7 @@ const Header = () => {
   }, [])
 
   return (
-    <header>
+    <header id='home'>
       <div className=" container header_container">
         <CTA />
         <div className="type">
